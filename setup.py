@@ -12,8 +12,8 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'bjcpy
-DESCRIPTION = 'Python functions based on 2015 BJCP data'
+NAME = 'bjcpy'
+DESCRIPTION = 'Python functions based on the 2015 Beer Judge Certification Program (BJCP) style guidelines.'
 URL = 'https://github.com/blackelbow/bjcpy'
 EMAIL = 'me@example.com'
 AUTHOR = 'blackelbow'
