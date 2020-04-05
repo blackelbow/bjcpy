@@ -55,7 +55,7 @@ bjcp.find_style('dark')
 You can check that a beer (described by a dict) is in style by using fits_style:
 
 ```python
-my_beer={'OG': 1.050,'FG': 1.006, 'ABV': 5.8, 'IBU': 30, 'SRM':4.5}
+my_beer={'OG': 1.050,'FG': 1.006, 'ABV': 5.8, 'IBU': 30, 'SRM': 4.5}
 bjcpy.fits_style(my_beer, 'trappist_single')
 
 # True
@@ -91,7 +91,7 @@ bjcpy.what_style(my_beer)
 # Returns ['eisbock', 'wee_heavy', 'english_barleywine', 'american_barleywine', 'wheatwine', 'sahti']
 ```
 
-###Notes: 
+Notes: 
 1. For specialty-type beer styles, run functions on the base style.
 2. For kellerbier, reference an individual type instead of the general category. 
 3. For the specialty IPA category, reference individual types instead of the general category.
