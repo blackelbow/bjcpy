@@ -15,7 +15,7 @@ from setuptools import find_packages, setup, Command
 NAME = 'bjcpy'
 DESCRIPTION = 'Python functions based on the 2015 Beer Judge Certification Program (BJCP) style guidelines.'
 URL = 'https://github.com/blackelbow/bjcpy'
-EMAIL = 'me@example.com'
+EMAIL = 'coude.noir@gmail.com'
 AUTHOR = 'blackelbow'
 REQUIRES_PYTHON = '>=3.6.4'
 VERSION = '0.1.0'
