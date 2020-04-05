@@ -35,11 +35,11 @@ To check that a style is included in the guidelines, use is_style :
 ```python
 bjcpy.is_style('trappist_single') 
 
-#True
+# True
 
 bjcpy.is_style('trappist_quintuple') 
 
-#False
+# False
 ```
 
 
